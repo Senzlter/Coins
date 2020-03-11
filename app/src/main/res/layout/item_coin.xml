@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/frame_regular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+
+            <ImageView
+                android:id="@+id/image_coin_regular"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/ic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/text_coin_name_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bitcoin"
+                    android:textSize="38px" />
+
+                <TextView
+                    android:id="@+id/text_coin_description_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="3"
+                    android:text="Bitcoiasdasdjfvndfvnsdnfvsns\snslpakfoidashfopnmdfnasd\nladasdasdsasdasdasdasdasdadsaadsadasopjsghdoifngsofidjngksjdnfgbsdnfkgshbdfgnuysdbhfnasoyfganhoieufhnoiasdjfnasjnkf"
+                    android:textSize="30px" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_different"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="9">
+
+                <TextView
+                    android:id="@+id/text_coin_name_different"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bitcoin"
+                    android:textAlignment="textEnd"
+                    android:textSize="38px" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_coin_different"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/ic" />
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>

@@ -4,6 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.SplashScreen">
+    tools:context=".activity.SplashScreen"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageIconSS"
+        android:layout_width="56pt"
+        android:layout_height="56pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100pt"
+        android:background="@drawable/ic"/>
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageIconSS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Coinranking"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        />
 
 </RelativeLayout>
