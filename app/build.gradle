@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
 
 android {
     //noinspection GradleCompatible
@@ -41,5 +40,5 @@ dependencies {
 
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
-    implementation 'com.github.ar-android:AndroidSvgLoader:1.0.2'
+    implementation 'com.github.corouteam:GlideToVectorYou:v2.0.0'
 }

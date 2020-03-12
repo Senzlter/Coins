@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="130dp"
+    android:layout_height="180dp"
     android:background="@drawable/bg_border"
     >
 
@@ -18,8 +18,8 @@
 
             <ImageView
                 android:id="@+id/image_coin_regular"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:layout_marginLeft="5dp"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-black"
                     android:text="Bitcoin"
-                    android:textSize="38px" />
+                    android:textSize="32px" />
 
                 <TextView
                     android:id="@+id/text_coin_description_regular"
@@ -49,7 +49,7 @@
                     android:fontFamily="sans-serif-light"
                     android:maxLines="3"
                     android:text="Bitcoiasdasdjfvndfvnsdnfvsns\snslpakfoidashfopnmdfnasd\nladasdasdsasdasdasdasdasdadsaadsadasopjsghdoifngsofidjngksjdnfgbsdnfkgshbdfgnuysdbhfnasoyfganhoieufhnoiasdjfnasjnkf"
-                    android:textSize="30px" />
+                    android:textSize="24px" />
 
             </LinearLayout>
         </LinearLayout>
@@ -82,15 +82,15 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Bitcoin"
                     android:textAlignment="textEnd"
-                    android:textSize="38px" />
+                    android:textSize="32px" />
 
 
             </LinearLayout>
 
             <ImageView
                 android:id="@+id/image_coin_different"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:layout_marginRight="5dp"

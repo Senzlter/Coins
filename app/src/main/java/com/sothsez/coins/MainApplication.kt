@@ -14,8 +14,4 @@ class MainApplication : Application(){
             return instance as MainApplication
         }
     }
-
-    override fun onCreate() {
-        super.onCreate()
-    }
-}
+  }

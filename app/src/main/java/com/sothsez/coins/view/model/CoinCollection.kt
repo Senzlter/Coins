@@ -14,7 +14,6 @@ data class CoinCollection(
     ) {
     }
 
-
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(status)
         parcel.writeParcelable(data, flags)

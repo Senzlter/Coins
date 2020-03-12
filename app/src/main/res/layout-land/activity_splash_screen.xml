@@ -12,7 +12,7 @@
         android:layout_width="56pt"
         android:layout_height="56pt"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100pt"
+        android:layout_marginTop="20pt"
         android:background="@drawable/ic_coin"/>
 
     <TextView

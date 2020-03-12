@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-black"
                     android:text="Bitcoin"
-                    android:textSize="38px" />
+                    android:textSize="24px" />
 
                 <TextView
                     android:id="@+id/text_coin_description_regular"
@@ -49,7 +49,7 @@
                     android:fontFamily="sans-serif-light"
                     android:maxLines="3"
                     android:text="Bitcoiasdasdjfvndfvnsdnfvsns\snslpakfoidashfopnmdfnasd\nladasdasdsasdasdasdasdasdadsaadsadasopjsghdoifngsofidjngksjdnfgbsdnfkgshbdfgnuysdbhfnasoyfganhoieufhnoiasdjfnasjnkf"
-                    android:textSize="30px" />
+                    android:textSize="16px" />
 
             </LinearLayout>
         </LinearLayout>
@@ -82,7 +82,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Bitcoin"
                     android:textAlignment="textEnd"
-                    android:textSize="38px" />
+                    android:textSize="24px" />
 
 
             </LinearLayout>
