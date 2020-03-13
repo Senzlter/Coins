@@ -76,9 +76,7 @@ class MainActivity : AppCompatActivity() {
         swipe_coin_list.setOnRefreshListener {
             Handler().postDelayed({
                 listSize = 10
-                coinsList = globalDao.data.coins
-                reloadData(0)
-                swipe_coin_list.isRefreshing = false
+                loadApiData()
                 edit_search.hint = "Search ( Prefix, Symbols, Slugs or IDs )"
                 lastSearch = ""
 
@@ -209,14 +207,9 @@ class MainActivity : AppCompatActivity() {
                 val dao = response.body()
                 Log.d("ddd", dao?.status.toString())
 
-                recycler_coin_list.adapter =
-                    CoinAdapter(
-                        this@MainActivity,
-                        dao!!.data.coins,
-                        listSize
-                    )
                 globalDao = dao!!
                 coinsList = globalDao.data.coins
+                reloadData(0)
                 getRecyclerScrollListener()
             }
         }
